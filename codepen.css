@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+
+#calculator {
+  border: solid;
+  height: 370px;
+  width: 300px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+#display{
+  border: solid;
+  height: 32px;
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 0%;
+  text-align: right;
+  padding: 0 5px;
+}
+
+#keypad {
+  /* border: solid blue; */
+  height: 250px;
+  margin: -15px 10px 0 15px;
+}
+
+#keypad ul {
+  padding: 0;
+}
+
+#keypad li {
+  list-style: none;
+  display: inline;
+  margin: 5px;
+}
+
+.keys {
+  width: 50px;
+  border-radius: 10%;
+  margin: 10px 0;
+}
+
+#equals {
+  width: 120px;
+}
+
